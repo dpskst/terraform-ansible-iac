@@ -201,9 +201,13 @@ terraform destroy
 terraform plan
 ```
 
-실제 Infrastructure에 적용될 변경사항을 확인했습니다.
+Terraform Configuration과 실제 Infrastructure 상태를 비교하여
+변경 사항을 확인했습니다.
 
-![Terraform Plan](docs/images/terraform-plan.png)
+<img width="1031" height="469" alt="image" src="https://github.com/user-attachments/assets/96fe7066-cf1a-47bc-a2c7-d9f483c5fc6a" />
+
+현재 Terraform Configuration과 실제 Infrastructure 상태가 일치하여
+추가적인 변경 사항이 없는 것을 확인했습니다.
 
 ### 4.5 Terraform Apply
 
@@ -211,14 +215,19 @@ terraform plan
 terraform apply
 ```
 
-Terraform을 이용하여 Libvirt Resource를 생성했습니다.
+Terraform을 이용하여 현재 Infrastructure 상태를 확인하고,
+Terraform Configuration과 실제 Infrastructure 상태가 일치하는 것을 확인했습니다.
 
-```text
-Apply complete!
-Resources: 2 added, 0 changed, 0 destroyed.
-```
+실행 결과:
+No changes. Your infrastructure matches the configuration.
 
-![Terraform Apply](docs/images/terraform-apply.png)
+Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
+
+현재 관리 중인 Infrastructure에 추가적인 변경 사항이 없어
+Resource가 그대로 유지되고 있음을 확인했습니다.
+
+<img width="895" height="162" alt="image" src="https://github.com/user-attachments/assets/f7831940-6825-4089-9156-f3c9d7c07c93" />
+
 
 ### 4.6 Terraform State
 
