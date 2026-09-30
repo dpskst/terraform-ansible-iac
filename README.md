@@ -218,10 +218,6 @@ terraform apply
 Terraform을 이용하여 현재 Infrastructure 상태를 확인하고,
 Terraform Configuration과 실제 Infrastructure 상태가 일치하는 것을 확인했습니다.
 
-실행 결과:
-No changes. Your infrastructure matches the configuration.
-
-Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
 
 현재 관리 중인 Infrastructure에 추가적인 변경 사항이 없어
 Resource가 그대로 유지되고 있음을 확인했습니다.
