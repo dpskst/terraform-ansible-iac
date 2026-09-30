@@ -36,7 +36,7 @@ Terraform을 통해 Infrastructure를 코드로 정의하고, Ansible을 통해 
       Infrastructure Layer    Configuration Layer
               |                       |
               v                       v
-           Libvirt                 SSH
+           Libvirt                   SSH
               |                       |
               v                       v
           Linux VM <------------- Ansible
