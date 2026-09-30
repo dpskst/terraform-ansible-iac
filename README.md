@@ -313,7 +313,8 @@ rescued=0
 ignored=0
 ```
 
-![Ansible Result](docs/images/ansible-result.png)
+<img width="812" height="366" alt="image" src="https://github.com/user-attachments/assets/e26a4234-fc02-4142-a7f0-2a794c37dbcd" />
+
 
 ---
 
@@ -400,7 +401,8 @@ ansible web \
   -a "systemctl status nginx --no-pager"
 ```
 
-![Nginx Status](docs/images/nginx-status.png)
+<img width="721" height="350" alt="image" src="https://github.com/user-attachments/assets/46304f15-c7c2-48ef-8f9a-46a723624dd4" />
+
 
 ---
 
@@ -513,7 +515,8 @@ ps -ef | grep '[q]emu.*web02'
 
 정상 실행 중인 `web01`과 QEMU 실행 옵션 및 Domain XML을 비교하여 문제를 단계적으로 분석했습니다.
 
-![Troubleshooting](docs/images/troubleshooting.png)
+<img width="615" height="217" alt="image" src="https://github.com/user-attachments/assets/01f026c9-2222-48a2-b2fa-12d8372c79bb" />
+
 
 해당 문제는 Terraform Resource 생성 자체의 오류가 아닌 KVM/QEMU 실행 단계에서 발생하는 문제로 확인했으며, 본 프로젝트에서는 Troubleshooting 과정으로 기록했습니다.
 
